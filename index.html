@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgentBrowser — Ask for anything. Get it done.</title>
+  <meta name="description" content="AgentBrowser is a macOS app powered by Claude Code. Say what you need — track fitness, understand weather, organize your life — and see it done, with full interactive results.">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/components.css">
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <img class="nav-logo-icon" src="assets/app-icon.png" srcset="assets/app-icon.png 1x, assets/app-icon@2x.png 2x, assets/app-icon@3x.png 3x" alt="AgentBrowser icon">
+        AgentBrowser
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#showcase">Showcase</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="assets/AgentBrowser.dmg" download class="nav-cta">Download</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">For macOS</p>
+      <h1 class="hero-title">
+        Ask for it.<br>
+        <em>It happens.</em>
+      </h1>
+      <p class="hero-subtitle">
+        A macOS desktop app powered by Claude Code. Understand a blizzard, track your fitness, organize your files — just say what you need and get it.
+      </p>
+      <p class="hero-req">Requires <strong>Claude Code</strong> (Anthropic CLI)</p>
+      <div class="hero-actions">
+        <a href="assets/AgentBrowser.dmg" download class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 2v10m0 0l-3.5-3.5M9 12l3.5-3.5M3 15h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Download for Mac
+        </a>
+        <span class="hero-version">v1.0 &middot; macOS 13+</span>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-screenshot-wrapper">
+        <img src="assets/screenshot-blizzard-hero.png" alt="AgentBrowser showing an interactive editorial about the Blizzard of 2026" class="hero-screenshot" loading="eager">
+      </div>
+    </div>
+  </section>
+
+  <!-- Ticker -->
+  <div class="ticker">
+    <div class="ticker-track">
+      <span>Track my workouts</span>
+      <span class="ticker-dot"></span>
+      <span>Explain the blizzard</span>
+      <span class="ticker-dot"></span>
+      <span>Compare these stocks</span>
+      <span class="ticker-dot"></span>
+      <span>Plan my meals</span>
+      <span class="ticker-dot"></span>
+      <span>Visualize my spending</span>
+      <span class="ticker-dot"></span>
+      <span>Research this topic</span>
+      <span class="ticker-dot"></span>
+      <span>Log my medications</span>
+      <span class="ticker-dot"></span>
+      <span>Summarize the news</span>
+      <span class="ticker-dot"></span>
+      <span>Track my workouts</span>
+      <span class="ticker-dot"></span>
+      <span>Explain the blizzard</span>
+      <span class="ticker-dot"></span>
+      <span>Compare these stocks</span>
+      <span class="ticker-dot"></span>
+      <span>Plan my meals</span>
+      <span class="ticker-dot"></span>
+      <span>Visualize my spending</span>
+      <span class="ticker-dot"></span>
+      <span>Research this topic</span>
+      <span class="ticker-dot"></span>
+      <span>Log my medications</span>
+      <span class="ticker-dot"></span>
+      <span>Summarize the news</span>
+      <span class="ticker-dot"></span>
+    </div>
+  </div>
+
+  <!-- Features -->
+  <section class="features" id="features">
+    <div class="section-header">
+      <p class="section-eyebrow">What it does</p>
+      <h2 class="section-title">You ask.<br>It delivers.</h2>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card feature-card--large">
+        <div class="feature-icon">
+          <svg viewBox="0 0 32 32" fill="none"><rect x="3" y="3" width="26" height="26" rx="4" stroke="currentColor" stroke-width="2"/><path d="M3 11h26M11 11v18" stroke="currentColor" stroke-width="2"/><circle cx="20" cy="20" r="3" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3>Complete, usable results</h3>
+        <p>Not a wall of text. Not a link to somewhere else. AgentBrowser gives you a full, interactive result you can actually use — with navigation, live data, charts, and controls — right there in front of you.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M4 24l7-7 5 5 8-10 4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="3" y="3" width="26" height="26" rx="4" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3>Sees the picture, not just words</h3>
+        <p>Ask about the weather and get a forecast chart. Ask about spending and get a breakdown. Information is shown the way it makes sense — visually, interactively.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M16 4v24M4 16h24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3>Remembers your stuff</h3>
+        <p>Log a yoga session today, check your stats next week. Track medications, manage a grocery list, journal your thoughts — your data stays on your machine and persists across sessions.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M8 8h16v16H8z" stroke="currentColor" stroke-width="2"/><path d="M12 4v4M20 4v4M12 24v4M20 24v4M4 12h4M4 20h4M24 12h4M24 20h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Keep refining, keep going</h3>
+        <p>Don't like how something looks? Want more detail? Just say so. "Show me weekly instead of monthly" or "add last year's data too" — it adjusts on the fly.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M6 6l20 20M26 6L6 26" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="16" cy="16" r="6" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3>Just needs Claude Code</h3>
+        <p>AgentBrowser runs on Claude Code, Anthropic's CLI agent. Install Claude Code, open AgentBrowser, and start asking. That's the whole setup.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 32 32" fill="none"><rect x="6" y="14" width="8" height="14" rx="2" stroke="currentColor" stroke-width="2"/><rect x="18" y="4" width="8" height="24" rx="2" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3>Multiple things at once</h3>
+        <p>Track your workouts in one window, research a trip in another, check the weather in a third. Each window is its own space with its own context and data.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Showcase -->
+  <section class="showcase" id="showcase">
+    <div class="section-header">
+      <p class="section-eyebrow">In action</p>
+      <h2 class="section-title">One prompt. The whole picture.</h2>
+    </div>
+
+    <!-- Showcase Item 1: Blizzard Editorial -->
+    <div class="showcase-item">
+      <div class="showcase-text">
+        <span class="showcase-label">Understanding &amp; Research</span>
+        <h3 class="showcase-heading">"I want an explainer for how blizzards happen, in context of the ongoing one in NYC. Show the forecast, the build-up, the path across the state. Use metric. Light colors like snow."</h3>
+        <p class="showcase-desc">One prompt. You get a full briefing — the science behind the storm, a timeline of events, formation diagrams you can actually read, info cards breaking down key facts, and a live forecast chart with temperature, snowfall, and wind data.</p>
+        <ul class="showcase-tags">
+          <li>Visual explainers</li>
+          <li>Live forecasts</li>
+          <li>Key stats at a glance</li>
+          <li>Deep-dive sections</li>
+        </ul>
+      </div>
+      <div class="showcase-gallery">
+        <div class="showcase-gallery-scroll">
+          <img src="assets/screenshot-blizzard-hero.png" alt="Blizzard 2026 editorial hero section" loading="lazy">
+          <img src="assets/screenshot-blizzard-diagram.png" alt="Weather formation diagram" loading="lazy">
+          <img src="assets/screenshot-blizzard-cards.png" alt="Information cards layout" loading="lazy">
+          <img src="assets/screenshot-blizzard-forecast.png" alt="Interactive forecast chart" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+    <!-- Showcase Item 2: Fitness Tracker -->
+    <div class="showcase-item showcase-item--reverse">
+      <div class="showcase-text">
+        <span class="showcase-label">Tracking &amp; Habits</span>
+        <h3 class="showcase-heading">"Log my runs and actually see improvement"</h3>
+        <p class="showcase-desc">That was the first prompt. Then: "make it flexible for any activity." Now it's a full tracker — dashboard, activity logging, history, stats over time. Log sessions with one message, come back tomorrow and pick up where you left off.</p>
+        <ul class="showcase-tags">
+          <li>Log in one line</li>
+          <li>Stats over time</li>
+          <li>Searchable history</li>
+          <li>Always saved</li>
+        </ul>
+      </div>
+      <div class="showcase-gallery">
+        <div class="showcase-gallery-scroll">
+          <img src="assets/screenshot-yoga-dashboard.png" alt="Yoga tracker dashboard" loading="lazy">
+          <img src="assets/screenshot-yoga-stats.png" alt="Activity stats and charts" loading="lazy">
+          <img src="assets/screenshot-yoga-history.png" alt="Activity history table" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="section-header">
+      <p class="section-eyebrow">How it works</p>
+      <h2 class="section-title">Three steps. That's it.</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <span class="step-number">1</span>
+        <h3>Say what you want</h3>
+        <p>Type the outcome you want. "Track my runs and show me improvement", "Explain the NYC blizzard with forecasts and diagrams", "Compare my spending month over month."</p>
+      </div>
+      <div class="step">
+        <span class="step-number">2</span>
+        <h3>See it take shape</h3>
+        <p>Not a paragraph of text — a complete, visual, interactive result. Charts you can read, dashboards you can use, explainers you can navigate. It appears in seconds.</p>
+      </div>
+      <div class="step">
+        <span class="step-number">3</span>
+        <h3>Keep going</h3>
+        <p>Use what it made. Log data into your tracker, explore sections of a report. Ask follow-ups — "now show me just February" or "add a notes field." It refines instantly.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specs -->
+  <section class="specs">
+    <div class="specs-grid">
+      <div class="spec">
+        <span class="spec-label">Engine</span>
+        <span class="spec-value">Claude Code</span>
+      </div>
+      <div class="spec">
+        <span class="spec-label">Platform</span>
+        <span class="spec-value">macOS 13+</span>
+      </div>
+      <div class="spec">
+        <span class="spec-label">Results</span>
+        <span class="spec-value">Visual / Interactive</span>
+      </div>
+      <div class="spec">
+        <span class="spec-label">Storage</span>
+        <span class="spec-value">Local / Persistent</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="cta" id="download">
+    <div class="cta-content">
+      <h2 class="cta-title">Ask for anything.<br><em>Get it done.</em></h2>
+      <p class="cta-subtitle">Whatever you need — tracked, visualized, explained — you see it happen.</p>
+      <a href="assets/AgentBrowser.dmg" download class="btn btn-primary btn-large">
+        <svg width="20" height="20" viewBox="0 0 18 18" fill="none"><path d="M9 2v10m0 0l-3.5-3.5M9 12l3.5-3.5M3 15h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Download for Mac
+      </a>
+      <span class="cta-note">Free &middot; v1.0 &middot; Apple Silicon &amp; Intel</span>
+      <span class="cta-req">Requires Claude Code &mdash; Anthropic's CLI agent</span>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-logo">
+        <img class="footer-logo-icon" src="assets/app-icon.png" srcset="assets/app-icon.png 1x, assets/app-icon@2x.png 2x, assets/app-icon@3x.png 3x" alt="AgentBrowser icon">
+        AgentBrowser
+      </span>
+      <a href="mailto:enquiries@s82.studio" class="footer-email">enquiries@s82.studio</a>
+      <span class="footer-copy">&copy; 2026</span>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
